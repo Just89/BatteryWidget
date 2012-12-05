@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    >
+    
+    <ImageView
+        android:id="@+id/widgetimage"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:src="@drawable/battery" 
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="3dip" />  
+        
+    <ImageView
+        android:id="@+id/bar20"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar_red"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dip"
+        android:visibility="invisible"/>          
+    
+    <ImageView
+        android:id="@+id/bar40"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar_green"
+        android:layout_marginTop="33dip"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />   
+        
+   <ImageView
+        android:id="@+id/bar60"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar_green"
+        android:layout_marginTop="26dip"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>   
+        
+   <ImageView
+        android:id="@+id/bar80"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar_green"
+        android:layout_marginTop="19dip"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />   
+        
+  <ImageView
+        android:id="@+id/bar100"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar_green"
+        android:layout_marginTop="12dip"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />   
+   
+   <TextView  
+        android:id="@+id/battery_level"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dip"
+        android:layout_centerHorizontal="true"
+        android:includeFontPadding="false"
+        android:lineSpacingMultiplier="0.9"
+        android:maxLines="1"
+        android:textSize="11sp"
+        android:typeface="sans"
+        android:textColor="#000000"
+        android:text="@string/hello"  /> 
+
+</RelativeLayout>
